@@ -26,8 +26,8 @@ public class Produto {
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "nome_produto")
-    private String nomeProduto;
+    @Column(name = "produto")
+    private String produto;
 
     @Column(name = "valor_unitario")
     private Double valorUnitario;
